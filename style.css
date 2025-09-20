@@ -1,0 +1,131 @@
+class, id, element, *
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+  
+      }
+      
+      img {
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+      h1 {
+        font-size: 21px;
+        line-height: 24px;
+        padding-top: 80px;
+        padding-bottom:36px;
+       
+      }
+
+ 
+      
+      .main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 600px;
+
+      }
+      .description {
+        color: rgba(0,0,0,0.4);      
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+      html {
+        scroll-behavior: smooth;
+      }   
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        margin-left: 170px;
+        margin-right: 20px;
+      }
+      .info {
+        
+        background-color: #eaecf0;
+        border: 2px dashed #72777d;
+        border-radius: 200px;
+        font-style: oblique;
+        font-size: 15px;
+        color: grey;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+      }
+      .info:hover {
+        background-color: #cbc2c2;
+      }
+      .info:last-of-type{
+        background-color: #868a8e;
+      }
+
+      
+      .blockquote {
+
+        border: rgba(0,0,0,0.4);
+        border-radius: 0px;
+        border-left: 3px solid ;
+        line-height: 23px;
+        font-style: oblique;
+        padding: 17px;
+        
+   
+       
+      }
+      .bold{
+        font-weight: bold;
+      }
+      ul {
+        margin-left: 10px
+      }
+     
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        font-style:oblique;
+        font-variant: small-caps;
+        color : rgb(11, 10, 11);
+        line-height: 19px;
+        
+        
+      }
+      h3 {
+        font-size: 17px;
+        font-weight: bold;
+        color :rgb(53, 31, 53);
+        
+        line-height: 19px;
+      }
+      p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 23px;
+        
+      }
+      .list {
+        padding: 0px;
+        border: 2px solid #868a8e;
+        background-color: #f8f9fa;
+        margin-right: 0px;
+        margin-left: 0px;
+        width : 400px;
+        position: fixed;
+        left: 0;
+        height: 800px;
+        overflow: scroll;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+
+
+      }
+
+      .list:hover {
+        background-color: #c9ced3;
+      }
+      
